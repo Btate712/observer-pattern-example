@@ -12,10 +12,16 @@ public class Utility : IObserver<BillingAddress>
         _name = name;
         _billingAddress = personalData.BillingAddress;
         personalData.AddObserver(this);
+        WriteAddressToConsole();
     }
     public void Update(BillingAddress billingAddress)
     {
         _billingAddress = billingAddress;
-        Console.WriteLine($"Updated Utility billing address for {_name}.");
+        WriteAddressToConsole();
+    }
+    
+    private void WriteAddressToConsole()
+    {
+        Console.WriteLine($"Set {_name} utility billing address to {_billingAddress.FullAddress}.");
     }
 }

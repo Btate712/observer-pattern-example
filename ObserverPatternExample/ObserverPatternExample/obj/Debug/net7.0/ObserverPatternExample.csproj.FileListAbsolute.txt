@@ -1,0 +1,15 @@
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/bin/Debug/net7.0/ObserverPatternExample
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/bin/Debug/net7.0/ObserverPatternExample.deps.json
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/bin/Debug/net7.0/ObserverPatternExample.runtimeconfig.json
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/bin/Debug/net7.0/ObserverPatternExample.dll
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/bin/Debug/net7.0/ObserverPatternExample.pdb
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/obj/Debug/net7.0/ObserverPatternExample.csproj.AssemblyReference.cache
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/obj/Debug/net7.0/ObserverPatternExample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/obj/Debug/net7.0/ObserverPatternExample.AssemblyInfoInputs.cache
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/obj/Debug/net7.0/ObserverPatternExample.AssemblyInfo.cs
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/obj/Debug/net7.0/ObserverPatternExample.csproj.CoreCompileInputs.cache
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/obj/Debug/net7.0/ObserverPatternExample.dll
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/obj/Debug/net7.0/refint/ObserverPatternExample.dll
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/obj/Debug/net7.0/ObserverPatternExample.pdb
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/obj/Debug/net7.0/ObserverPatternExample.genruntimeconfig.cache
+/Users/roberttate/Documents/programming/observer-pattern-example/ObserverPatternExample/ObserverPatternExample/obj/Debug/net7.0/ref/ObserverPatternExample.dll

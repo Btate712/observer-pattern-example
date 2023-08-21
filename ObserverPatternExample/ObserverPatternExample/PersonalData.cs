@@ -4,6 +4,8 @@ public class PersonalData : IObservable<BillingAddress>
 {
     private readonly List<IObserver<BillingAddress>> _observers;
     private BillingAddress _billingAddress;
+
+    public string Name { get; set; }
     
     public BillingAddress BillingAddress
     {
@@ -12,6 +14,7 @@ public class PersonalData : IObservable<BillingAddress>
         set
         {
             _billingAddress = value;
+            Console.WriteLine($"Set address for {Name} to {_billingAddress.FullAddress}");
             Notify();
         }
     }
