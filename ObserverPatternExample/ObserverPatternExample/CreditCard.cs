@@ -16,6 +16,7 @@ public class CreditCard : IObserver<BillingAddress>
     }
     public void Update(BillingAddress billingAddress)
     {
+        // Send change of address notification to CC Company
         _billingAddress = billingAddress;
         WriteUpdateToConsole();
     }

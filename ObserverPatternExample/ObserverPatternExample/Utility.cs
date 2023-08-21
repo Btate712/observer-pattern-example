@@ -16,6 +16,7 @@ public class Utility : IObserver<BillingAddress>
     }
     public void Update(BillingAddress billingAddress)
     {
+        // Send change of address notification to utility Company
         _billingAddress = billingAddress;
         WriteAddressToConsole();
     }
