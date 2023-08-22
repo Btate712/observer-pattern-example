@@ -4,7 +4,6 @@ public class Utility : IObserver<BillingAddress>
 {
     private readonly string _name;
     
-    // ReSharper disable once NotAccessedField.Local
     private BillingAddress _billingAddress;
     
     public Utility(string name, PersonalData personalData)

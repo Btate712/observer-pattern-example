@@ -51,16 +51,16 @@ public class PersonalData : IObservable<BillingAddress>, IObservable<string>
         _billingAddressObservers.Add(observer);
     }
 
-    public void RemoveObserver(IObserver<BillingAddress> observer)
-    {
-        _billingAddressObservers.Remove(observer);
-    }
-
     public void AddObserver(IObserver<string> observer)
     {
         _phoneNumberObservers.Add(observer);
     }
-
+    
+    public void RemoveObserver(IObserver<BillingAddress> observer)
+    {
+        _billingAddressObservers.Remove(observer);
+    }
+    
     public void RemoveObserver(IObserver<string> observer)
     {
         _phoneNumberObservers.Remove(observer);

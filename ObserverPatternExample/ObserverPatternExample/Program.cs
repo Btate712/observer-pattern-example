@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
 using ObserverPatternExample;
+
+Console.Clear();
 
 var lisa = new PersonalData("Lisa")
 {
@@ -14,9 +15,12 @@ var lisa = new PersonalData("Lisa")
     PhoneNumber = "(555)555-5555"
 };
 
+// ReSharper disable once UnusedVariable
 var visaCard = new CreditCard("Visa", lisa);
+// ReSharper disable once UnusedVariable
 var discoverCard = new CreditCard("Discover", lisa);
 var water = new Utility("Water", lisa);
+// ReSharper disable once UnusedVariable
 var electric = new Utility("Electric", lisa);
 
 Console.WriteLine();
