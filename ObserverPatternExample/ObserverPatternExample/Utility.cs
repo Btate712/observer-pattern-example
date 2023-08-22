@@ -14,10 +14,10 @@ public class Utility : IObserver<BillingAddress>
         personalData.AddObserver(this);
         WriteAddressToConsole();
     }
-    public void Update(BillingAddress billingAddress)
+    public void Update(BillingAddress observableState)
     {
         // Send change of address notification to utility Company
-        _billingAddress = billingAddress;
+        _billingAddress = observableState;
         WriteAddressToConsole();
     }
     

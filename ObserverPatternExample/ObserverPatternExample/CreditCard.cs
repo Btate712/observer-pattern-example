@@ -11,21 +11,23 @@ public class CreditCard : IObserver<BillingAddress>, IObserver<string>
     {
         _name = name;
         _billingAddress = personalData.BillingAddress;
+        _phoneNumber = personalData.PhoneNumber;
         personalData.AddObserver(this as IObserver<BillingAddress>);
         personalData.AddObserver(this as IObserver<string>);
         WriteBillingAddressUpdateToConsole();
+        WritePhoneNumberUpdateToConsole();
     }
-    public void Update(BillingAddress billingAddress)
+    public void Update(BillingAddress observableState)
     {
         // Send change of address notification to CC Company
-        _billingAddress = billingAddress;
+        _billingAddress = observableState;
         WriteBillingAddressUpdateToConsole();
     }
 
-    public void Update(string phoneNumber)
+    public void Update(string observableState)
     {
         // Send change of phone notification to CC Company
-        _phoneNumber = phoneNumber;
+        _phoneNumber = observableState;
         WritePhoneNumberUpdateToConsole();
     }
     

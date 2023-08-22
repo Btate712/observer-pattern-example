@@ -40,3 +40,19 @@ Console.ReadKey();
 Console.WriteLine();
 
 lisa.PhoneNumber = "(555)555-1234";
+
+Console.WriteLine();
+Console.WriteLine($"Press any key to remove water utility observer and update {lisa.Name}'s address again...");
+Console.ReadKey();
+Console.WriteLine();
+lisa.RemoveObserver(water);
+
+var anotherNewBillingAddress = new BillingAddress
+{
+    Street = "123 Michigan Avenue",
+    City = "Chicago",
+    State = "Il",
+    Zip = "60606"
+};
+
+lisa.BillingAddress = anotherNewBillingAddress;

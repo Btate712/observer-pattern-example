@@ -1,6 +1,6 @@
 namespace ObserverPatternExample;
 
-public interface IObservable<T>
+public interface IObservable<out T>
 {
     void AddObserver(IObserver<T> observer);
     void RemoveObserver(IObserver<T> observer);

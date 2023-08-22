@@ -2,5 +2,5 @@ namespace ObserverPatternExample;
 
 public interface IObserver<in T>
 {
-    void Update(T observeableState);
+    void Update(T observableState);
 }
